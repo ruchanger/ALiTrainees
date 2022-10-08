@@ -25,5 +25,10 @@ createApp({
         imgsrc: "./src/image/bg5.png"
       }]
     }
+  },
+  methods:{
+    toDetail(){
+      window.location.href= './subPages/detail/detail.html'
+    }
   }
 }).mount('#explorationPage')

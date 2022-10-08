@@ -14,7 +14,7 @@
 
   <div id="explorationPage">
     <div class="box" v-for="(item,index) in List" :style="`background-image: url(${item.imgsrc});`">
-      <div class="button" >前往体验</div>
+      <div class="button" @click="toDetail">前往体验</div>
       <div :class="`title ${index%2?'title-right':'title-left'}`">{{item.title}}</div>
       <div :class="`subtext ${index%2?'subtext-right':'subtext-left'}`">{{item.subtext}}}</div>
       <div :class="`mask ${index%2?'mask-left':''}`"></div>
