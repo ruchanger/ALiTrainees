@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品展示</title>
+ 
+    <style>
+        body,img{
+            margin:0px;
+            padding: 0px;
+        }
+        body{
+            margin: 100px auto 0px auto;
+            background-image: url("./images/01big.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .box{
+            width:366px;
+            height:70px;
+            margin: 435px auto 0px auto;
+            cursor: pointer;
+        }
+        .box img{
+            width: 70px;
+        }
+    </style>
+    <script>
+        function $(id){
+            return document.getElementById(id);
+        }
+ 
+        window.onload = function(){
+            $('img1').onmousemove = function(){
+                document.body.style.backgroundImage = "url('./images/01big.jpg')";
+            }
+  
+        }
+    </script>
+</head>
+<body>
+    <div id="bigbox"></div>
+    <div class="box">
+        <img src="01.jpg" alt="" id="img1">
+
+ 
+    </div>
+</body>
+</html>
