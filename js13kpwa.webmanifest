@@ -1,0 +1,21 @@
+{
+    "name": "园艺疗法",
+    "short_name": "园艺疗法",
+    "description": "我们为您提供优质的中医园艺疗法服务",
+    "icons": [
+        {
+            "src": "img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/Home.html",
+    "display": "fullscreen",
+    "theme_color": "#304133",
+    "background_color": "#E2EEEC"
+}
