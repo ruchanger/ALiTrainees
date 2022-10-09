@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>体验馆</title>
+  <link rel="stylesheet" type="text/css" href="./exploration.css">
+</head>
+
+<body>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <div id="explorationPage">
+    <div class="box" v-for="(item,index) in List" :style="`background-image: url(${item.imgsrc});`">
+      <div class="button" @click="toDetail">前往体验</div>
+      <div :class="`title ${index%2?'title-right':'title-left'}`">{{item.title}}</div>
+      <div :class="`subtext ${index%2?'subtext-right':'subtext-left'}`">{{item.subtext}}}</div>
+      <div :class="`mask ${index%2?'mask-left':''}`"></div>
+    </div>
+  </div>
+  
+  <script src="./exploration.js"></script>
+</body>
+
+</html>

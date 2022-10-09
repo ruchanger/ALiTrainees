@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100vw;
+  height: 52vw;
+  background-image: url(../../src/image/bg1.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(37, 67, 48, 0.30196078431372547) 3.035%, rgba(37, 67, 48, 0.1568627450980392) 100%);
+}
+
+.button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.55vw;
+  width: 11.1vw;
+  height: 3.33vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 0.972vw;
+  z-index: 5;
+}
+
+.button1 {
+  position: absolute;
+  left: 3.88vw;
+  top: 3.54vw;
+}
+
+.button2 {
+  position: absolute;
+  top: 35.5vw;
+  left: 43.4vw;
+}
+
+.button3 {
+  position: absolute;
+  top: 43.4vw;
+  left: 43.4vw;
+  background: rgb(83, 195, 81);
+  border: none;
+}
+
+.title {
+  position: absolute;
+  width: 18.33vw;
+  height: 6.11vw;
+  top: 2.1vw;
+  left: 43.4vw;
+
+  color: rgb(255, 255, 255);
+  font-family: Source Han Serif CN;
+  font-size: 3.26vw;
+  font-weight: 700;
+  line-height: 6.1vw;
+  letter-spacing: 0%;
+  text-align: left;
+
+  z-index: 5;
+}
+
+.icon {
+  z-index: 5;
+}
+
+.icon1 {
+  position: absolute;
+  width: 1.6vw;
+  height: 1.6vw;
+  top: 40vw;
+  left: 40vw;
+}
+
+.icon2 {
+  position: absolute;
+  width: 2.63vw;
+  height: 2.57vw;
+  top: 3.8vw;
+  left: 92.6vw;
+}
+
+.text {
+  position: absolute;
+  width: 17.6vw;
+  height: 1.59vw;
+  top: 40vw;
+  left: 42vw;
+
+  color: rgb(255, 255, 255);
+  font-family: Noto Sans SC;
+  font-size: 0.972vw;
+  font-weight: 700;
+  line-height: 1.45vw;
+  letter-spacing: 0;
+  text-align: left;
+
+  z-index: 5;
+}
