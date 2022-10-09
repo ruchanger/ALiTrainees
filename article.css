@@ -1,3 +1,12 @@
+body {
+    background-color: rgb(226, 238, 236);
+}
+
 .article-body {
     line-height: 1.25em;
+}
+
+.article-title {
+    display: block;
+    bottom: 1em;
 }
