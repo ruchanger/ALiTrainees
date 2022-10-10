@@ -91,6 +91,8 @@ body{
 }
 
 .boxa {
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 228vw;
   background-image: url(./wwwtp/Bail.png);
