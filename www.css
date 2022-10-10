@@ -89,10 +89,12 @@ body{
     height: 100vw;
     position: absolute;
 }
-
-.boxa {
+*{
   margin: 0;
   padding: 0;
+}
+.boxa {
+  
   width: 100vw;
   height: 228vw;
   background-image: url(./wwwtp/Bail.png);
