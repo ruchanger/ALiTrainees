@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100vw;
+    height: 52vw;
+    background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 15vw;
+    height: 5vw;
+    left: 5%;
+    top: 2%;
+    background-image: url(./img/2.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    display: flex;
+}
+
+.list {
+    left: 20%;
+    top: 3%;
+    position: absolute;
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+    width: 10vm;
+    float: left;
+    font-size: 10px;
+    font-family: Inter;
+    color: #fff;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login {
+    width: 15vw;
+    height: 5vw;
+    left: 85%;
+    top: 3%;
+    position: absolute;
+    display: flex;
+}
+
+.beijin {
+    width: 25vw;
+    height: 20vw;
+    left: 10%;
+    top: 20%;
+    position: absolute;
+    display: flex;
+}
+
+.wenzi {
+    width: 3vw;
+    height: 5vw;
+    left: 10%;
+    top: 60%;
+    position: absolute;
+    display: flex;
+}
+
+.buttona {
+    width: 3vw;
+    height: 5vw;
+    left: 10%;
+    top: 80%;
+    position: absolute;
+    display: flex;
+}
+
+.buttonb {
+    width: 3vw;
+    height: 5vw;
+    left: 28%;
+    top: 80%;
+    position: absolute;
+    display: flex;
+}
+
+.boxa {
+    width: 100vw;
+    height: 65vw;
+    background-color: rgb(226, 238, 236);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.awenzi {
+    width: 10vw;
+    height: 10vw;
+    left: 10%;
+    top: 5%;
+    position: absolute;
+    display: flex;
+}
+
+.sera {
+    width: 20vw;
+    height: 20vw;
+    left: 10%;
+    top: 25%;
+    position: absolute;
+    display: flex;
+}
+
+.serb {
+    width: 20vw;
+    height: 20vw;
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    display: flex;
+}
+
+.serc {
+    width: 20vw;
+    height: 20vw;
+    left: 70%;
+    top: 25%;
+    position: absolute;
+    display: flex;
+}
+
+.serd {
+    width: 20vw;
+    height: 20vw;
+    left: 10%;
+    top: 55%;
+    position: absolute;
+    display: flex;
+}
+
+.sere {
+    width: 20vw;
+    height: 20vw;
+    left: 40%;
+    top: 55%;
+    position: absolute;
+    display: flex;
+}
+
+.serf {
+    width: 20vw;
+    height: 20vw;
+    left: 70%;
+    top: 55%;
+    position: absolute;
+    display: flex;
+}
+
+.boxb {
+    width: 100vw;
+    height: 65vw;
+    background-color: rgb(226, 238, 236);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bwenzi {
+    width: 5vw;
+    height: 5vw;
+    left: 10%;
+    top: 0%;
+    position: absolute;
+    display: flex;
+}
+
+.edua {
+    width: 50vw;
+    height: 50vw;
+    left: 10%;
+    top: 10%;
+    position: absolute;
+    display: flex;
+}
+
+.edub {
+    width: 16vw;
+    height: 16vw;
+    left: 66%;
+    top: 10%;
+    position: absolute;
+    display: flex;
+}
+
+.educ {
+    width: 16vw;
+    height: 16vw;
+    left: 66%;
+    top: 36%;
+    position: absolute;
+    display: flex;
+}
+
+.edud {
+    width: 16vw;
+    height: 16vw;
+    left: 66%;
+    top: 62%;
+    position: absolute;
+    display: flex;
+}
+
+.edue {
+    width: 4vw;
+    height: 4vw;
+    left: 79.5%;
+    top: 3%;
+    position: absolute;
+    display: flex;
+}
+
+.eduf {
+    width: 10vw;
+    height: 10vw;
+    left: 10%;
+    top: 71.6%;
+    position: absolute;
+    display: flex;
+}
+
+.boxc {
+    width: 100vw;
+    height: 48vw;
+    background-image: url(./img/CTA.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ca {
+    width: 3.4vw;
+    height: 3.4vw;
+    left: 7.8%;
+    top: 69%;
+    position: absolute;
+    display: flex;
+}
+
+.cb {
+    width: 3.4vw;
+    height: 3.4vw;
+    left: 20.65%;
+    top: 69%;
+    position: absolute;
+    display: flex;
+}
+
+.boxd {
+    width: 100vw;
+    height: 68vw;
+    background-color: rgb(226, 238, 236);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dwenzi {
+    width: 5vw;
+    height: 5vw;
+    left: 10%;
+    top: 5%;
+    position: absolute;
+    display: flex;
+}
+
+.da {
+    width: 18vw;
+    height: 18vw;
+    left: 10%;
+    top: 13%;
+    position: absolute;
+    display: flex;
+}
+
+.db {
+    width: 18vw;
+    height: 18vw;
+    left: 35%;
+    top: 13%;
+    position: absolute;
+    display: flex;
+}
+
+.dc {
+    width: 18vw;
+    height: 18vw;
+    left: 60%;
+    top: 13%;
+    position: absolute;
+    display: flex;
+}
+
+.dd {
+    width: 18vw;
+    height: 18vw;
+    left: 10%;
+    top: 42%;
+    position: absolute;
+    display: flex;
+}
+
+.de {
+    width: 18vw;
+    height: 18vw;
+    left: 35%;
+    top: 42%;
+    position: absolute;
+    display: flex;
+}
+
+.df {
+    width: 18vw;
+    height: 18vw;
+    left: 60%;
+    top: 42%;
+    position: absolute;
+    display: flex;
+}
+
+.dg {
+    width: 18vw;
+    height: 18vw;
+    left: 35%;
+    top: 71%;
+    position: absolute;
+    display: flex;
+}
+
+.dh {
+    width: 18vw;
+    height: 18vw;
+    left: 60%;
+    top: 71%;
+    position: absolute;
+    display: flex;
+}
+
+.di {
+    width: 4vw;
+    height: 4vw;
+    left: 70.2%;
+    top: 6%;
+    position: absolute;
+    display: flex;
+}
+
+.boxe {
+    width: 100vw;
+    height: 52vw;
+    background-image: url(./img/e0.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ea {
+    width: 3.4vw;
+    height: 3.4vw;
+    left: 45.95%;
+    top: 85.3%;
+    position: absolute;
+    display: flex;
+}
+
+.boxf {
+    width: 100vw;
+    height: 35vw;
+    background-color: rgb(226, 238, 236);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    width: 15vw;
+    height: 15vw;
+    left: 6%;
+    top: 16%;
+    position: absolute;
+    display: flex;
+}
+
+.fb {
+    width: 15vw;
+    height: 15vw;
+    left: 40%;
+    top: 20%;
+    position: absolute;
+    display: flex;
+}
+
+.fc {
+    width: 2vw;
+    height: 2vw;
+    left: 70%;
+    top: 20%;
+    position: absolute;
+    display: flex;
+}
+
+.fd {
+    width: 15vw;
+    height: 15vw;
+    left: 70%;
+    top: 28%;
+    position: absolute;
+    display: flex;
+}
