@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./www.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div id="app">
+      <div class="tou">
+        <ul class="biao">
+        
+        <li><a href="https://ruchanger.github.io/ALiTrainees/exploration.html"> 体验馆&thinsp;&thinsp; </a></li>
+        <li><a href="https://ruchanger.github.io/ALiTrainees/www.html"> 课程服务&thinsp;&thinsp; </a></li>
+        <li><a href="https://ruchanger.github.io/ALiTrainees/article.html"> 园艺科普&thinsp;&thinsp; </a></li>
+        <li><a href="https://ruchanger.github.io/ALiTrainees/Home.html"> 关于我们&thinsp;&thinsp; </a></li>
+        </ul>
+      </div>
+      
+      <div class="boxa">
+          <div class="bailan1"><img src="wwwtp/Bail1.png"></div>
+          <div class="bailan2"><img src="wwwtp/Bail2.png"></div>
+          <div class="bailan3"><img src="wwwtp/Bail3.png"></div>
+          <div class="bailan4"><img src="wwwtp/Bail4.png"></div>
+          <div class="bailan5"><img src="wwwtp/Bail5.png"></div>
+          <div class="bailan6"><img src="wwwtp/Bail6.png"></div>
+      </div>
+    </div>
+           
+  
+  
+</body>
+</html>
+<script>
+  window.addEventListener('scroll',function(){
+      let tou = document.querySelector('.tou');
+      
+     
+     /*  tou.classList.toggle("bian",window.scrollY>0); */
+     if(window.scrollY>0)
+      {
+          tou.classList.add("bian");
+      }else{
+          tou.classList.remove("bian");
+      }
+  })
+</script>
+ 
+
+
