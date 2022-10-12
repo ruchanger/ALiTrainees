@@ -14,7 +14,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/Home.html",
+    "start_url": "/ALiTrainees/Home.html",
     "display": "fullscreen",
     "theme_color": "#304133",
     "background_color": "#E2EEEC"
