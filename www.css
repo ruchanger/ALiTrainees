@@ -156,11 +156,12 @@ body{
 }
 
 .tou{
+    background-color: rgb(179, 245, 213);
   z-index:19999;
    position: fixed;
    top: 0;
    left: 0;
-   padding: 1vw ;
+   padding: 3vw ;
    width: 100vw;
    display: flex;
    justify-content: space-between;
@@ -194,7 +195,7 @@ body{
 }
 .biao a{
 
-   color: rgb(42, 237, 110);
+   color: rgb(7, 7, 7);
    text-decoration: none;
 
 }
