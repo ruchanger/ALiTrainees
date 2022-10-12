@@ -138,20 +138,27 @@ class NavigationBar extends React.Component {
                              className="d-inline-block align-text-top"/>
                     </a>
                     <div className="d-flex">
-                        <ul className="navbar-nav">
-                            <li className="nav-item px-3">
-                                <a className="nav-link" href="Home.html">园艺疗法</a>
-                            </li>
-                            <li className="nav-item px-3">
-                                <a className="nav-link" href="exploration.html">体验馆</a>
-                            </li>
-                            <li className="nav-item px-3">
-                                <a className="nav-link" href="www.html">课程服务</a>
-                            </li>
-                            <li className="nav-item px-3 active">
-                                <a className="nav-link" aria-current="page" href="article.html">园艺科普</a>
-                            </li>
-                        </ul>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <ul className="navbar-nav">
+                                <li className="nav-item px-3">
+                                    <a className="nav-link" href="Home.html">园艺疗法</a>
+                                </li>
+                                <li className="nav-item px-3">
+                                    <a className="nav-link" href="exploration.html">体验馆</a>
+                                </li>
+                                <li className="nav-item px-3">
+                                    <a className="nav-link" href="www.html">课程服务</a>
+                                </li>
+                                <li className="nav-item px-3 active">
+                                    <a className="nav-link" aria-current="page" href="article.html">园艺科普</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
